@@ -1,0 +1,25 @@
+This repository contains the solution for Assignment 1, which is divided into two main parts:
+
+Frailty Study Case (Female Participants):
+
+Ingest, process, and analyze grip strength and frailty data.
+
+Preprocessing steps include unit standardization, feature engineering, and categorical encoding.
+
+Exploratory Data Analysis (EDA) includes summary statistics and correlation analysis between grip strength and frailty.
+
+Student Performance Dataset Visualizations:
+
+Ingestion and preprocessing (handling missing values, standardization).
+
+Five required visualizations (V1–V5) with interpretations:
+
+V1: Gender differences in math vs reading
+
+V2: Test prep impact on math
+
+V3: Lunch type vs overall performance
+
+V4: Subject correlations (math, reading, writing)
+
+V5: Math vs reading with trend lines by test prep
