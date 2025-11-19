@@ -1,1 +1,93 @@
 
+
+📘 Assignment 2 & 3 – Data Analysis in Google Colab
+
+This repository contains the solutions for **Assignment 2 & 3**, organized into clear folders and Jupyter Notebooks as required.
+All work was completed using **Google Colab**, with datasets provided through external links.
+
+---
+
+## 📂 Repository Structure
+
+```
+Assignment2_3/
+│
+├── Q1_UsedCars/
+│   └── Q1_UsedCars.ipynb
+│
+├── Q2_Diabetes/
+│   └── Q2_Diabetes.ipynb
+│
+└── README.md
+```
+
+---
+
+## 📄 Assignment Overview
+
+### **Q1 – Used Cars Dataset (Data Cleaning & Feature Engineering)**
+
+This section includes:
+
+* Loading the used car dataset from the provided Box link
+* Handling missing values (median/mode imputation)
+* Removing units from numeric variables (`kmpl`, `CC`, `bhp`, `Lakh`)
+* One-hot encoding (`Fuel_Type`, `Transmission`)
+* Creating an additional predictor (e.g., `Car_Age`)
+* Performing transformations similar to R `dplyr`:
+
+  * `select`, `filter`, `rename`, `mutate`, `arrange`, `summarize + group_by`
+
+All steps are fully implemented in **Q1_UsedCars.ipynb**.
+
+---
+
+### **Q2 – Diabetes Dataset (Sampling & Bootstrap Analysis)**
+
+This section includes:
+
+* Reading the Diabetes dataset from the provided Box link
+* Drawing a sample of 25 observations and comparing Glucose statistics
+* Computing the 98th percentile of BMI for both sample and population
+* Performing **bootstrap sampling (500 samples of size n=150)** for:
+
+  * mean BloodPressure
+  * standard deviation
+  * percentile
+* Comparing bootstrap estimates with population values
+* Visualizations for sampling and bootstrap distributions
+
+All steps are fully implemented in **Q2_Diabetes.ipynb**.
+
+---
+
+## 🛠 Technologies Used
+
+* **Python 3**
+* **Google Colab (Jupyter Notebooks)**
+* **pandas**, **NumPy**
+* **matplotlib**, **seaborn**
+* **scikit-learn** (for imputers)
+
+---
+
+## 📬 How to Run the Notebooks
+
+1. Open each `.ipynb` file in Google Colab or Jupyter Notebook.
+2. Run cells in order.
+3. Upload the datasets when prompted, or modify the notebook to load from URL.
+
+---
+
+## 📎 Notes
+
+* All notebooks follow the assignment instructions strictly.
+* Folder structure follows the submission requirements:
+
+  * **Organized into folders/subfolders**
+  * **Only `.ipynb` notebooks included as source**
+* This repository is made **public** as required for Canvas submission.
+
+---
+
+
